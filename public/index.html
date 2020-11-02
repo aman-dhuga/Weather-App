@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today's Weather</title>
+    <!-- <link rel="stylesheet" type="text/css" href="/Module/public/main.css" /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="title"><h1>Today's Weather</h1></div>
+      <div class="location">
+        <div class="timezone"><h1 class="place"></h1></div>
+        <div class="icon"></div>
+      </div>
+
+      <div class="temperature-section">
+        <div class="temp">
+          <h1>
+            <span>Temperature: </span><span class="temperature"></span>&deg; C
+          </h1>
+        </div>
+
+        <div class="description">
+          <h1 class="temperature-description"></h1>
+        </div>
+      </div>
+    </section>
+    <section class="details">
+      <h3><span>Feels Like: </span> <span class="feels-like"></span>&deg; C</h3>
+      <h3><span>Humidity: </span> <span class="humidity"></span>%</h3>
+      <h3><span>Sunrise: </span> <span class="sun-rise"></span></h3>
+      <h3><span>Sunset: </span> <span class="sun-set"></span></h3>
+    </section>
+
+    <!-- <h2>Hello World</h2> -->
+    <!-- <p>Latitude: <span id="lat"></span>&deg;</p> -->
+    <!-- <p>Longitude: <span id="long"></span>&deg;</p> -->
+    <!-- <button onclick="handleClick()">Submit</button> -->
+    <!-- <button onclick="handleDelete()">Delete</button> -->
+
+    <script src="main.js"></script>
+    <script src="skycons.js"></script>
+  </body>
+</html>
